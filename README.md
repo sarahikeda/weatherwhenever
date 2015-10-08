@@ -1,5 +1,5 @@
 ##Work sample
-<B>Application developer</b><br/>
+######Application developer
 
 
 ###Assignmnet
@@ -14,13 +14,13 @@ Build an awesome weather app that shows the weather at your current  location.
 
 
 ###Assets
-You can find some icon assets at <a>https://github.com/erikflowers/weather-icons</a> that you can use if you please. You are more than welcome to use other assets that you feel are better fitted for your solution.
+You can find some icon assets at [https://github.com/erikflowers/weather-icons](https://github.com/erikflowers/weather-icons) that you can use if you please. You are more than welcome to use other assets that you feel are better fitted for your solution.
 
 ###Expectations 
-<B>User experience</b><br/>
+######User experience
 The feature of the app is simple but we expect you to deliver a solution with a high user experience. Imagine this application is to be used by real user with real needs. Maybe your application won’t be as feature-full as many other applications on the market, but at least make it interesting, fun and intuitive to use. We appreciate solutions that exceed our expectations.
 
-<B>Code</b><br/>
+######Code
 We expect that the code is of high quality and under source control. Expect the solution to be continuously worked on by other developers and should therefore be easy to understand, adjust and extend. True beauty starts on the inside!
 
 ###Delivery
