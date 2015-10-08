@@ -24,5 +24,5 @@ We expect that the code is of high quality and under source control. Expect the 
 
 ###Delivery
 Make a fork.
-Create your project in a folder with your name at root level
-Make a pull request with your contribution when you’re done
+Create your project in a folder with your name at root level.
+Make a pull request with your contribution when you’re done.
