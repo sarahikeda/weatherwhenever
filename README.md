@@ -25,5 +25,42 @@ We expect that the code is of high quality and under source control. Expect the 
 ###Delivery
 Make your work on a branch of master. When you are done, please make a pull request and add screen interaction as reviewer. If you have any comments on your solution you can add that in the description of the pull request.
 
-
 #Good luck!
+
+
+# API DOCS 
+*to use: append url-param key=API-KEY*
+
+# Available Endpoints and Documentation
+/weather (http://openweathermap.org/current)
+/forecast (http://openweathermap.org/forecast5)
+/forecast/daily (http://openweathermap.org/forecast16)
+​
+We always respond in JSON and metrics.
+we also don’t support these features of the openweathermap API:
+- Bulk downloading
+- Search Accuracy (like/accuracy)
+- Limitation of result
+- Units format
+- Multilingual support
+- Callback functions for javascript.
+​
+# You can use these parameters
+## By city name:
+?q={city name},{country code}
+?q={city name}
+city name and country code divided by comma, use ISO 3166 country codes
+​
+## By city id:
+?id={id}
+List of city ID city.list.json.gz can be downloaded here http://bulk.openweathermap.org/sample/
+​
+## By geographic coordinates:
+?lat={lat}&lon={lon}
+coordinates of the location of your interest
+​
+## By Zip Code
+?zip={zip code},{country code}
+
+
+
