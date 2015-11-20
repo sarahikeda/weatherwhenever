@@ -29,7 +29,7 @@ Make your work on a branch of master. When you are done, please make a pull requ
 
 
 # API DOCS 
-*to use: append url-param key=API-KEY*
+*to use: append url-param: * 'key=62fc4256-8f8c-11e5-8994-feff819cdc9f'
 
 ### Available Endpoints and Documentation
 - /weather (http://openweathermap.org/current)
