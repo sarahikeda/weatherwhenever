@@ -23,9 +23,6 @@ The feature of the app is simple but we expect you to deliver a solution with a 
 We expect that the code is of high quality and under source control. Expect the solution to be continuously worked on by other developers and should therefore be easy to understand, adjust and extend. True beauty starts on the inside!
 
 ###Delivery
-Make a fork.
-Create your project in a folder with your name at root level.
-Make a pull request with your contribution when you’re done.
+Make your work on a branch of master. Whene you are done, please make a pull request and add screen interaction as reviewer.
 
-
-`May the source be with you`
+Good luck!
