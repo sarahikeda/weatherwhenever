@@ -32,9 +32,9 @@ Make your work on a branch of master. When you are done, please make a pull requ
 *to use: append url-param key=API-KEY*
 
 # Available Endpoints and Documentation
-/weather (http://openweathermap.org/current)
-/forecast (http://openweathermap.org/forecast5)
-/forecast/daily (http://openweathermap.org/forecast16)
+*/weather (http://openweathermap.org/current)
+*/forecast (http://openweathermap.org/forecast5)
+*/forecast/daily (http://openweathermap.org/forecast16)
 ​
 We always respond in JSON and metrics.
 we also don’t support these features of the openweathermap API:
@@ -61,6 +61,3 @@ coordinates of the location of your interest
 ​
 ## By Zip Code
 ?zip={zip code},{country code}
-
-
-
