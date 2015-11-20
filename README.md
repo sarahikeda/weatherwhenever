@@ -37,8 +37,8 @@ Make your work on a branch of master. When you are done, please make a pull requ
 - /forecast/daily (http://openweathermap.org/forecast16)
 ​
 
-### We always respond in JSON and metrics.
-we also don’t support these features of the openweathermap API:
+We always respond in JSON and metrics
+We also don’t support these features of the openweathermap API:
 
 - Bulk downloading
 - Search Accuracy (like/accuracy)
