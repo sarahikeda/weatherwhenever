@@ -13,7 +13,7 @@ Build an awesome weather app that shows the weather at your current  location.
 
 
 ###Assets
-You can find some icon assets at [https://github.com/erikflowers/weather-icons](https://github.com/erikflowers/weather-icons) that you can use if you please. You are more than welcome to use other assets that you feel are better fitted for your solution.
+You can find some icon assets at [https://github.com/erikflowers/weather-icons](https://github.com/erikflowers/weather-icons) that you can use if you please. You are more than welcome to use other assets that you feel are better fitted for your solution. We do not expect you to be a designer, but since application development on Screen Interaction most often includes visual interfaces we do expect you to have an eye for good design and that you are well aware of your platforms guidelines and conventions. 
 
 ###Expectations 
 ######User experience
