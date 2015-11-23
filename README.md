@@ -39,9 +39,9 @@ http://worksample-api.herokuapp.com
 http://worksample-api.herokuapp.com is a simple wrapper of some of the endpoints provided on http://openweathermap.org/.
 
 ##Available Endpoints and Documentation
-- http://worksample-api.herokuapp.com/weather [documentation](http://openweathermap.org/current)
-- http://worksample-api.herokuapp.com/forecast [documentation](http://openweathermap.org/forecast5)
-- http://worksample-api.herokuapp.com/forecast/daily [documentation](http://openweathermap.org/forecast16)
+- http://worksample-api.herokuapp.com/weather - [documentation](http://openweathermap.org/current)
+- http://worksample-api.herokuapp.com/forecast - [documentation](http://openweathermap.org/forecast5)
+- http://worksample-api.herokuapp.com/forecast/daily - [documentation](http://openweathermap.org/forecast16)
 
 We always respond in JSON and metrics.
 We also don’t support these features of the openweathermap API:
