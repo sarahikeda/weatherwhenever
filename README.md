@@ -2,7 +2,7 @@
 
 
 ##Assignmnet
-Build an awesome weather app that shows the weather at your current  location. 
+Build an awesome weather app that shows the weather at your current  location.
 
 ##Minimum requirements
 - Show the weather for your current location
@@ -39,9 +39,9 @@ http://worksample-api.herokuapp.com
 http://worksample-api.herokuapp.com is a simple wrapper of some of the endpoints provided on http://openweathermap.org/.
 
 ##Available Endpoints and Documentation
-- http://worksample-api.herokuapp.com/weather - [documentation](http://openweathermap.org/current)
-- http://worksample-api.herokuapp.com/forecast - [documentation](http://openweathermap.org/forecast5)
-- http://worksample-api.herokuapp.com/forecast/daily - [documentation](http://openweathermap.org/forecast16)
+- http://worksample-api.herokuapp.com/weather [documentation](http://openweathermap.org/current)
+- http://worksample-api.herokuapp.com/forecast [documentation](http://openweathermap.org/forecast5)
+- http://worksample-api.herokuapp.com/forecast/daily [documentation](http://openweathermap.org/forecast16)
 
 We always respond in JSON and metrics.
 We also don’t support these features of the openweathermap API:
@@ -57,23 +57,29 @@ We also don’t support these features of the openweathermap API:
 ##You can use these parameters
 
 #### API key (mandatory)
-?key=62fc4256-8f8c-11e5-8994-feff819cdc9f
+The API-key is required for all API calls.
+
+`?key=62fc4256-8f8c-11e5-8994-feff819cdc9f`
 
 #### By city name:
-?q={city name},{country code}
-?q={city name}
-city name and country code divided by comma, use ISO 3166 country codes
+City name and country code divided by comma, use ISO 3166 country codes.
+
+`?q={city name},{country code}`
+
+`?q={city name}`
 ​
 #### By city id:
-?id={id}
-List of city ID city.list.json.gz can be downloaded here http://bulk.openweathermap.org/sample/
+List of city ID:s can be downloaded [here](http://bulk.openweathermap.org/sample/)
+
+`?id={id}`
 ​
 #### By geographic coordinates:
-?lat={lat}&lon={lon}
-coordinates of the location of your interest
+Coordinates of the location of your interest
+
+`?lat={lat}&lon={lon}`
 ​
 #### By Zip Code
-?zip={zip code},{country code}
+`?zip={zip code},{country code}`
 
 ##An example request:
 
