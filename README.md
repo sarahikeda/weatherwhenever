@@ -25,6 +25,12 @@ We expect that the code is of high quality and under source control. Expect the 
 Make your work on a branch of master. When you are done, please make a pull request and add screen interaction as reviewer. If you have any comments on your solution you can add that in the description of the pull request.
 
 
+
+master-----------------------
+      \                     
+        your-branch--------> pull-request to master
+
+
 ### Good luck!
 
 ---
