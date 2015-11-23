@@ -57,23 +57,23 @@ We also don’t support these features of the openweathermap API:
 ##You can use these parameters
 
 #### API key (mandatory)
-<code>?key=62fc4256-8f8c-11e5-8994-feff819cdc9f</code>
+?key=62fc4256-8f8c-11e5-8994-feff819cdc9f
 
 #### By city name:
-<code>?q={city name},{country code}</code>
-<code>?q={city name}</code>
+?q={city name},{country code}
+?q={city name}
 city name and country code divided by comma, use ISO 3166 country codes
 ​
 #### By city id:
-<code>?id={id}</code>
+?id={id}
 List of city ID city.list.json.gz can be downloaded here http://bulk.openweathermap.org/sample/
 ​
 #### By geographic coordinates:
-<code>?lat={lat}&lon={lon}</code>
+?lat={lat}&lon={lon}
 coordinates of the location of your interest
 ​
 #### By Zip Code
-<code>?zip={zip code},{country code}</code>
+?zip={zip code},{country code}
 
 ##An example request:
 
