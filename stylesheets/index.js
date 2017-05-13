@@ -25,7 +25,21 @@ function getWeather(lat,lon) {
 
 function displayWeather(cityConditions) {
   $(".weather-form").empty();
+  rainOrShine(cityConditions.weather)
+
   $.each(cityConditions, function(info, value){
-    $(".weather-form").append("<div class=" + info + "<p>" + value + "</p></div>")
+    $(".weather-form").append("<div class=" + info + "><p>" + value + "</p></div>")
   })
+}
+
+function rainOrShine(weather) {
+  if (weather == "Clouds") {
+    $(".weather-form").append('<div class="weather-image"> <i class="wi wi-cloudy"></i></div>')
+  } else if (weather== "Rain") {
+    $(".weather-form").append('<div class="weather-image"> <i class="wi wi-rains"></i></div>')
+  } else if (weather== "Snow") {
+    $(".weather-form").append('<div class="weather-image"> <i class="wi wi-snow"></i></div>')
+  } else {
+    $(".weather-form").append('<div class="weather-image"> <i class="wi wi-day-sunny"></i></div>')
+  }
 }
