@@ -17,7 +17,7 @@ function getWeather(lat,lon) {
   var cityConditions = {};
   $.getJSON(weatherUrl, function(data){
     cityConditions.city = data.name
-    cityConditions.temp =  data.main.temp;
+    cityConditions.temp =  data.main.temp + "°C";
     cityConditions.weather = data.weather[0].main
     displayWeather(cityConditions)
   });
