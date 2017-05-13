@@ -14,8 +14,14 @@ function addWeather(weatherResult) {
   $(".weather-form").append("<div class='weather-image'> <i class=\"" + weatherResult + "\"></i></div>")
 }
 
-function displayStats(cityConditions) {
+function stylePage() {
   $(".weather-form").empty();
+  $(".message").show();
+  $("body").css("background-color","#ffe529");
+}
+
+function displayStats(cityConditions) {
+  stylePage();
   var weatherResult = checkWeather(cityConditions.weather)
   addWeather(weatherResult)
   $.each(cityConditions, function(info, value){
@@ -47,3 +53,7 @@ function locateUser(){
     }));
   }
 };
+
+$(document).ready(function() {
+  $(".message").hide();
+});
