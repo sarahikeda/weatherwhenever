@@ -18,15 +18,14 @@ function getWeather(lat,lon) {
   $.getJSON(weatherUrl, function(data){
     cityConditions.city = data.name
     cityConditions.temp =  data.main.temp;
-    cityConditions.humidity =  data.main.humidity;
     cityConditions.weather = data.weather[0].main
     displayWeather(cityConditions)
   });
 }
 
 function displayWeather(cityConditions) {
+  $(".weather-form").empty();
   $.each(cityConditions, function(info, value){
-    $(".weather-form").append(value)
-
+    $(".weather-form").append("<div class=" + info + "<p>" + value + "</p></div>")
   })
 }
