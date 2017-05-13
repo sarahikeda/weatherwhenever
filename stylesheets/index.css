@@ -7,18 +7,8 @@
   margin: 10%;
 }
 
-.heading {
-  padding-bottom: 300px;
-}
-
 #main-header {
-  font-size: 8em;
-  margin-bottom: -160px;
-}
-
-#sub-header {
-  font-size: 6em;
-  float: right;
+  font-size: 4em;
 }
 
 #query-button {
@@ -33,7 +23,7 @@
 
 .weather-image {
   font-size: 20em;
-  color: #8a5d81;
+  color: rgba(255, 255, 255, 0.79);
   text-align: center;
   margin-bottom: -100px;
 }
@@ -45,4 +35,24 @@
 }
 .city, .weather {
   text-align: right;
+  font-size: .8em;
+}
+
+@media only screen and (max-width: 500px) {
+  .temp {
+    margin-bottom: -80px;
+  }
+  .weather-form {
+    margin-bottom: 180px;
+  }
+  .city, .weather {
+    text-align: center;
+  }
+}
+
+.message {
+  text-align: center;
+  margin-top: -160px;
+  font-size: 2em;
+  font-weight: bold;
 }
