@@ -2,13 +2,18 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheets/weather-icons.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="stylesheets/index.js" ></script>
     <title>WeatherWherever</title>
   </head>
   <body>
     <div class="weather-form">
-      <button type="submit" onclick="locateUser()">Weather Here</button>
+      <div class="heading">
+        <p id='main-header'>Weather</p><p id='sub-header'>Wherever</p>
+      </div>
+      <button type="submit" id="query-button" onclick="locateUser()"><i class="wi wi-night-storm-showers"></i>&emsp;&emsp; or &emsp;&emsp;<i class="wi wi-day-sunny"></i></button>
     </div>
   </body>
 </html>

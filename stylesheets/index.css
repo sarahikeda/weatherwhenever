@@ -1,0 +1,25 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+}
+
+.weather-form {
+  margin: 10%;
+}
+#main-header {
+  font-size: 100%;;
+  margin-bottom: -30px;
+}
+
+#sub-header {
+  font-size: 1em;
+  float: right;
+}
+#query-button {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #5a30e0 0%, #ff3edb 100%);
+  border-image-slice: 1;
+  background: #fff;
+  font-size: .5em;
+  padding: 10px 20px;
+}
