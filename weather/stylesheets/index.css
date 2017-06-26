@@ -1,0 +1,64 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+}
+
+.weather-form {
+  margin: 10%;
+  clear: both;
+}
+
+#main-header {
+  font-size: 4em;
+}
+
+#query-button {
+  margin-left: 40%;
+  border: 4px solid transparent;
+  border-image: linear-gradient(to right, #5a30e0 0%, #ff3edb 100%);
+  border-image-slice: 1;
+  background: #fff;
+  font-size: 2em;
+  padding: 10px 20px;
+}
+
+.weather-image {
+  font-size: 20em;
+  color: rgba(255, 255, 255, 0.79);
+  text-align: center;
+  margin-bottom: -100px;
+}
+
+.temp {
+  font-size: 4em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.city, .weather {
+  display: block;
+  float: right;
+  text-align: left;
+  font-size: .8em;
+}
+
+@media only screen and (max-width: 500px) {
+  .temp {
+    margin-bottom: -80px;
+  }
+  .weather-form {
+    margin-bottom: 180px;
+  }
+  .city, .weather {
+    text-align: center;
+  }
+}
+
+.message {
+  float: center;
+  clear: both;
+  text-align: center;
+  margin-top: -160px;
+  font-size: 3.5em;
+  font-weight: bold;
+}
